@@ -1,0 +1,210 @@
+a {
+text-decoration: none;
+}
+
+#wrapper {
+background: WHITE;
+max-width: 980px;
+margin: 0 auto;
+padding:0 5%;
+}
+
+img {
+max-width:100%;
+}
+
+ /*Quitar margen en acerca de */
+h3 {
+ margin: 0 0 1em 0; /*arriba ,derecha abajo y izquiersa*/
+}
+
+/* HEADING*/
+
+header {
+float: left;  /* HACIA LA IZQUIERDA*/
+margin: 0 0 30px 0;   /*MARGEN*/
+padding: 5px 0 0 0;   /* ARRIBA */
+width: 100%; /* Para que abarque todo el espacio posible del encabezado*/
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif; /* */
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+/* PAGNA PORTAFOLIO*/
+
+#gallery {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+
+#gallery li {
+  float: left;  /* NOS SIRVE PARA HACER A LA DERECHA EL CONTEIDO DEL PIE DE PAGINA */
+  width: 45%;   /* NOS SIRVE PARA HACER DOS COLUMNAS DEL CONTENIDO*/
+  margin: 2.5%; /* NOS SIRVE PARA HACER UN ESPACIO ENTRE LAS IMAGENES*/
+  background-color: #f5f5f5;  /* COLOR DE FONDO NOMBRE ASIGNADO A LAS IMAGENES*/
+  color: #dbc3c7;   /* PAGNA PORTAFOLIO*/
+}
+
+
+#gallery li a p {
+  margin:0;          /* ALINIAR MARGEN*/
+  padding:5%;       /* TAMAÑO DEL CUADRO*/
+  font-size:0.75em;  /* CAMBIAR TAMAÑO DE LA LETRA*/
+  color:#bdc3c7;    /* CAMBIAR COLOR DE LAÑETRA*/
+}
+
+
+/*PORTAFOLIO ACERCA DE*/
+
+.profile-photo {     /*Editar el tamño de la imagen y el margen del elemento*/
+  display: block;    /*Centrar y reducir el tamaño en version de escritotio*/
+  max-width: 150px;   /*que tenga maximo de altura */
+  margin: 0 auto 30px; /*0 arriba automatico izq y dere y abajo 0*/
+  border-radius:30%;
+}
+
+.contacto-info a {  /* aliniar los iconos a los contactos */
+  display: block;
+  min-height:20px;
+  background-repeat: no-repeat;
+  background-size:20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10;
+}
+
+.contacto-info li.telefono a {  /*Agregando imagenes de los iconos de contacto*/
+  background-image: url('../img/phone.png');
+}
+
+.contacto-info li.mail a {
+  background-image: url('../img/mail.png');
+}
+
+.contacto-info li.twitter a {
+  background-image: url('../img/twitter.png');
+}
+
+/*PAGINA DE CONTACTO*/
+
+.contacto-info {  /*asignar margenes */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9m;
+}
+
+/*Navegacion*/
+
+nav {
+text-align: center; /* Centrar*/
+padding: 10px 0 ; /* relleno arriba y abajo*/
+margin: 20px 0 0;/* margen  */
+}
+
+nav ul {  /* Dar estilo a la lista no ordenada*/
+  list-style: none; /* Quitar los puntos */
+  margin: 0 10px;
+  padding: 0;  /* Quitar relleno de los cuatro lados*/
+}
+
+nav li {
+display: inline-block; /* Ordenar la lista en vertival */
+}
+
+nav a {
+  font-weight: 800; /* Poner letras en negritas*/
+  padding:15px 10px; /* Dar espacio a los lados que no este muy pegado portafolio*/
+}
+
+/* FOOTER*/
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  padding-top: 50px;
+  color: #ccc;
+  clear: both;  /* QUE NO TENGA NINGUN ELEMENTO A LA IZQUI NI A LA DERECHA ABAJO CENTRO*/
+}
+
+.social-icon{  /* Reducir el tamaño de los iconos redes sociales para que en moviles se visualice igual que en el nagebador*/
+  width: 20px;
+  height: 20px;
+  margin:0 5px;
+}
+
+
+.form-control {
+  margin: 5px 0;
+}
+
+form textarea {
+  width: 20em;
+}
+
+
+body {
+font-family: 'Raleway',  sans-serif;  /* TIPO DE LETRA*/
+background-color:white;
+
+}
+
+/*COLOR */
+/* LINKS*/
+
+a {
+  color: #4db8ff ;
+}
+
+/* ENCABEZADO*/
+header {
+  background: #80ccff;
+  border-color: #33adff;
+}
+
+/*TEXTO DEL LOGO */
+
+h1, h2 {
+color: #fff;
+}
+
+/*NAVEGACION */
+
+nav {
+  background: #33adff;
+}
+
+/*LIK DE NAVEGACION*/
+
+nav a, nav a:visited{
+  color: BLACK;
+}
+
+/*LINKS SELECCIONADOS  */
+
+nav a.selected, a:hover {   /*se utiliza para que cambie color cuando pase el cursor*/
+  color:#008ae6;
+}
+
+/*CUERPO*/
+body {
+  background:#999;
+color: #999;
+background:white;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>  <! Esto es el escabezado -->
+    <meta charset="utf-8">
+    <title>Darwin Borge | Web Developer</title> <! esto es un titulo-->
+    <link rel = "stylesheet" href = "css/normalize.css"> <! agregar estilos a la paguina color de cuerpo y a las etiquetas -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,800" rel="stylesheet">
+    <link rel = "stylesheet" href = "css/main.css"> <! esto realiza cambios con css como subrayallados-->
+    <link rel="stylesheet" href="css/responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>  <! "body "Esto es el cuerpo-->
+    <header> <!"header" es un contenedor de elementos principales -->
+    <a href="index.html" id = "logo"> <!"a" nos ridecciona a nuestro link index-->
+      <h1>DARWIN ARIEL BORGE GARCÍA</h1>
+      <h2>Desarrollando mi primera pagina Web</h2>
+      </a>
+      <nav> <!"nav" Barras de navegacion-->
+        <ul><!"ul" Una lista no ordenada-->
+          <li><a href="index.html" > Portafolio </a> </li> <! "li" es una lista -->
+          <li><a href="acerca.html" > Acerca de </a> </li>
+          <li><a href="contacto.html" class="selected"> Contacto </a> </li>
+          <link rel="stylesheet" href="css/responsive.css">
+        </ul>
+      </nav>
+    </header>
+    <div id = "wrapper"> <!"div id = "wrapper" nos sirve para centrarlo -->
+<section id = "primary">
+<h3>Información general</h3>
+<p>Actualmente no estoy buscando un trabajo como desarrollador, pero estoy disponible como instructor o conferencista </p>
+</section>
+<section id = "secondary">
+  <h3>Detalles de contacto</h3>
+  <ul class = "contacto-info">
+    <li class = "telefono "> <a href="Tel:+505 ">2251-9921</a></li>
+    <li class = "mail"><a href="mailto:dborge93@gmail.com">dborge93@gmail.com</a></li>
+    <li class ="twitter"><a href="https://twitter.com/intent/tweet?screen_name=DarwinBorge">@DarwinBorge</a></li>
+  </ul>
+</section>
+  <section>
+       <form id="contactForm" method="post" action="php/contact-form.php">
+         <div>
+           <input class="form-control" id="name" name="name" placeholder="Nombre" type="text" required />
+         </div>
+         <div>
+           <input class="form-control" id="email" name="email" placeholder="Email" type="email" required />
+         </div>
+         <div>
+           <input class="form-control" id="subject" type="text" name="subject" placeholder="Asunto" required>
+         </div>
+         <div>
+           <textarea class="form-control" id="message" name="message" placeholder="Mensaje" rows="5" required></textarea>
+         </div>
+         <div>
+           <input type="submit" class="form-send" value="Enviar">
+         </div>
+       </form>
+     </section>
+    <footer> <! seccion relacionado con otras link incluyendo el copiar y pega-->
+      <a href="https://twitter.com/DarwinBorge"><img src="img/twitter-wrap.png" alt="Twitter Logo"
+        class = "social-icon"></a>
+      <a href="https://www.facebook.com/darwinarielb"><img src="img/facebook-wrap.png" alt="Facebook Logo"
+        class="social-icon"></a>
+      <p>&copy; 2017 Darwin Borge</p> <! indica el nombre de nuestra pagina o compañia-->
+    </footer>
+    </div>
+  </body>
+</html>
